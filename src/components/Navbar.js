@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <div className="navbar-container">
@@ -6,7 +8,7 @@ export default function Navbar() {
       </div>
 
       <div className="links-wrapper">
-        <button>Widget</button>
+        <Link to="/fizz-buzz">FizzBuzz</Link>
         <button>Widget</button>
         <button>Widget</button>
         <button>Widget</button>
