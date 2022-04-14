@@ -1,8 +1,5 @@
 .fizz-buzz-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include centerContent();
 
   .fizz-buzz-header {
     margin-bottom: 3em;

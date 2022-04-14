@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link to="/fizz-buzz">FizzBuzz</Link>
         <Link to="/magic-8-ball">Magic 8 Ball</Link>
         <Link to="/display-text">Display Text</Link>
-        <button>Widget</button>
+        <Link to="/add-two-numbers">Add Two Numbers</Link>
         <button>Widget</button>
         <button>Widget</button>
         <button>Widget</button>

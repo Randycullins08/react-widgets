@@ -35,7 +35,7 @@ export default function Magic8Ball() {
   return (
     <div className="magic-container">
       <div className="magic-header">
-        <h1>Hello From Magic 8 Ball</h1>
+        <h1>Welcome to Magic 8 Ball</h1>
       </div>
 
       <div className="magic-content-wrapper">

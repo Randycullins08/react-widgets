@@ -1,9 +1,5 @@
 .magic-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  @include centerContent();
 
   .magic-header {
     margin: 1em;

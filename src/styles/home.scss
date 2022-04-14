@@ -1,6 +1,4 @@
 .home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centerContent();
   font-size: 2em;
 }
