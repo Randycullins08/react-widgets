@@ -4,13 +4,15 @@ export default function Navbar() {
   return (
     <div className="navbar-container">
       <div className="logo-wrapper">
-        <h1>React Widgets</h1>
+        <Link exact to="/">
+          <h1>React Widgets</h1>
+        </Link>
       </div>
 
       <div className="links-wrapper">
         <Link to="/fizz-buzz">FizzBuzz</Link>
-        <button>Widget</button>
-        <button>Widget</button>
+        <Link to="/magic-8-ball">Magic 8 Ball</Link>
+        <Link to="/display-text">Display Text</Link>
         <button>Widget</button>
         <button>Widget</button>
         <button>Widget</button>
