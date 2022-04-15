@@ -2,11 +2,13 @@ import { useState } from "react";
 
 export default function CapitalizeInput() {
   const [inputStr, setInputStr] = useState("");
-  const [somebtn, setSomebtn] = useState(" Your  UPPRECASE name prints here");
+  const [headerText, setHeaderText] = useState(
+    " Your  UPPRECASE name prints here"
+  );
 
   const stringToUpperCase = (e) => {
     e.preventDefault();
-    setSomebtn(inputStr.toUpperCase());
+    setHeaderText(inputStr.toUpperCase());
 
     setInputStr("");
   };
@@ -14,7 +16,7 @@ export default function CapitalizeInput() {
   return (
     <div className="capatilize-input-container">
       <div className="header-wrapper">
-        <h1>{somebtn}</h1>
+        <h1>{headerText}</h1>
       </div>
 
       <div className="form-wrapper">
