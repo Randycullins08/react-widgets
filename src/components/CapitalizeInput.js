@@ -10,16 +10,24 @@ export default function CapitalizeInput() {
   };
 
   return (
-    <div className="App">
-      <p>{somebtn}</p>
-      <form>
-        <input
-          type="text"
-          placeholder="name-lowercase letters"
-          onChange={(e) => setInputStr(e.target.value.toUpperCase())}
-        />
-        <button onClick={stringToUpperCase}>Capitalize me</button>
-      </form>
+    <div className="capatilize-input-container">
+      <div className="header-wrapper">
+        <h1>{somebtn}</h1>
+      </div>
+
+      <div className="form-wrapper">
+        <form>
+          <input
+            type="text"
+            placeholder="name/lowercase letters"
+            onChange={(e) => setInputStr(e.target.value.toUpperCase())}
+          />
+
+          <div>
+            <button onClick={stringToUpperCase}>Capitalize me</button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
