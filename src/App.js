@@ -8,6 +8,7 @@ import DisplayText from "./components/DisplayText";
 import AddTwoNumbers from "./components/AddTwoNumbers";
 import CapitalizeInput from "./components/CapitalizeInput";
 import LowercaseInput from "./components/LowercaseInput";
+import ListOfThings from "./components/ListOfThing";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/add-two-numbers" component={AddTwoNumbers} />
           <Route path="/capatilize-input" component={CapitalizeInput} />
           <Route path="/lowercase-input" component={LowercaseInput} />
+          <Route path="/list-of-things" component={ListOfThings} />
         </Switch>
       </BrowserRouter>
     </div>
