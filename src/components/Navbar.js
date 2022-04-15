@@ -14,7 +14,7 @@ export default function Navbar() {
         <Link to="/magic-8-ball">Magic 8 Ball</Link>
         <Link to="/display-text">Display Text</Link>
         <Link to="/add-two-numbers">Add Two Numbers</Link>
-        <button>Widget</button>
+        <Link to="/capatilize-input">Capitalize Input</Link>
         <button>Widget</button>
         <button>Widget</button>
       </div>
