@@ -1,21 +1,19 @@
-.add-two-numbers-container {
+.lowercase-input-container {
   @include centerContent();
 
-  .add-two-numbers-header {
+  .header-wrapper {
     margin: 1em;
   }
-  .input-wrapper {
-    display: flex;
-    flex-direction: column;
+
+  .form-wrapper {
+    margin: 1em;
 
     input {
       margin: 1.5em;
-      padding: 0.9em;
+      padding: 1em;
       border-radius: 20px;
     }
-  }
 
-  .btn-wrapper {
     button {
       margin-top: 1em;
       width: 150px;
@@ -24,11 +22,5 @@
       color: white;
       border-radius: 20px;
     }
-  }
-
-  .total-wrapper {
-    margin-top: 2em;
-    font-size: 1.5em;
-    font-weight: 900;
   }
 }

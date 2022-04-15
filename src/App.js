@@ -7,6 +7,7 @@ import Magic8Ball from "./components/Magic8Ball";
 import DisplayText from "./components/DisplayText";
 import AddTwoNumbers from "./components/AddTwoNumbers";
 import CapitalizeInput from "./components/CapitalizeInput";
+import LowercaseInput from "./components/LowercaseInput";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/display-text" component={DisplayText} />
           <Route path="/add-two-numbers" component={AddTwoNumbers} />
           <Route path="/capatilize-input" component={CapitalizeInput} />
+          <Route path="/lowercase-input" component={LowercaseInput} />
         </Switch>
       </BrowserRouter>
     </div>

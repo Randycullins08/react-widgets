@@ -15,7 +15,7 @@ export default function Navbar() {
         <Link to="/display-text">Display Text</Link>
         <Link to="/add-two-numbers">Add Two Numbers</Link>
         <Link to="/capatilize-input">Capitalize Input</Link>
-        <button>Widget</button>
+        <Link to="/lowercase-input">Lowercase Input</Link>
         <button>Widget</button>
       </div>
     </div>

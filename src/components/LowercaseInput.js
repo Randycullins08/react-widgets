@@ -1,33 +1,35 @@
 import { useState } from "react";
 
-export default function CapitalizeInput() {
+export default function LowercaseInput() {
   const [inputStr, setInputStr] = useState("");
-  const [somebtn, setSomebtn] = useState(" Your  UPPRECASE name prints here");
+  const [headerText, setHeaderText] = useState(
+    "Your lowercase name prints here"
+  );
 
-  const stringToUpperCase = (e) => {
+  function strToLowercase(e) {
     e.preventDefault();
-    setSomebtn(inputStr.toUpperCase());
 
+    setHeaderText(inputStr.toLowerCase());
     setInputStr("");
-  };
+  }
 
   return (
-    <div className="capatilize-input-container">
+    <div className="lowercase-input-container">
       <div className="header-wrapper">
-        <h1>{somebtn}</h1>
+        <h1>{headerText}</h1>
       </div>
 
       <div className="form-wrapper">
         <form>
           <input
             type="text"
-            placeholder="name/lowercase letters"
+            placeholder="Name/Uppercase Letters"
             value={inputStr}
             onChange={(e) => setInputStr(e.target.value)}
           />
 
           <div>
-            <button onClick={stringToUpperCase}>Capitalize Me</button>
+            <button onClick={strToLowercase}>Lowercase Me</button>
           </div>
         </form>
       </div>
