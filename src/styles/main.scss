@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+@import "./mixins.scss";
+@import "./navbar.scss";
+@import "./home.scss";
+@import "./fizzBuzz.scss";
+@import "./magic8Ball.scss";
+@import "./displayText.scss";
+@import "./addTwoNumbers.scss";
+@import "./capitalizeInput.scss";
+@import "./lowercaseInput.scss";
+@import "./listOfThings.scss";
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}

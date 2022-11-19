@@ -1,0 +1,26 @@
+.lowercase-input-container {
+  @include centerContent();
+
+  .header-wrapper {
+    margin: 1em;
+  }
+
+  .form-wrapper {
+    margin: 1em;
+
+    input {
+      margin: 1.5em;
+      padding: 1em;
+      border-radius: 20px;
+    }
+
+    button {
+      margin-top: 1em;
+      width: 150px;
+      height: 50px;
+      background-color: rgb(53, 182, 224);
+      color: white;
+      border-radius: 20px;
+    }
+  }
+}

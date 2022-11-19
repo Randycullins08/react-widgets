@@ -1,0 +1,20 @@
+.list-of-things-container {
+  @include centerContent();
+
+  .header-wrapper {
+    margin: 1em;
+  }
+
+  .form-wrapper {
+    margin: 1em;
+    input {
+      margin: 1.5em;
+      padding: 1em;
+      border-radius: 20px;
+    }
+  }
+
+  .list-wrapper {
+    font-size: 2em;
+  }
+}
